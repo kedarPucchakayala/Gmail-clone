@@ -1,0 +1,52 @@
+.sidebar{
+    width: 250px;
+    
+}
+
+
+.list-items ul{
+   list-style: none;
+   margin-top: 5px;  
+}
+.list-items ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list{
+    top: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    margin-top: 4px;
+  
+  
+    
+}
+.icon{
+    margin-right: 10px;
+}
+.btn{
+    margin-left: 40px;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.G-Title{
+ 
+  z-index: 1;
+}
+.menu:hover{
+    
+    cursor: pointer;
+}
+.list:hover{
+
+    
+    border-radius: 10px;
+}
+.list-items{
+ overflow-y: auto;
+ height: 100vh;
+}
